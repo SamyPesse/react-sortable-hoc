@@ -163,7 +163,7 @@ export default function sortableContainer(
 
     componentWillReceiveProps(nextProps) {
       // Update style and class on helper
-      if (this.helper) {
+      if (!this.helper) {
         return;
       }
 
