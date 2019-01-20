@@ -1259,7 +1259,7 @@
             value: function componentWillReceiveProps(nextProps) {
               var _this3 = this;
 
-              if (this.helper) {
+              if (!this.helper) {
                 return;
               }
 
